@@ -1,8 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
 import { set } from "./actions";
 import { useState } from "react";
-import store from "./store";
-
 export const SetCounter = () => {
   const [counter, setCounter] = useState(0);
   const dispatch = useDispatch();
